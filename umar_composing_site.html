@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umar Composing and Translation Center</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: #0b5394;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      background: #073763;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #0b5394;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #0b5394;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Umar Composing and Translation Center</h1>
+    <p>Composing | Translation | Formatting | Arabic, Urdu & English</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Urdu-English Translation</h3>
+        <p>Professional and accurate translations for all types of documents.</p>
+      </div>
+      <div class="card">
+        <h3>Composing & Formatting</h3>
+        <p>Neat and clean composing in InPage, MS Word, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Arabic Translation</h3>
+        <p>Religious, official, and academic Arabic translations.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="margin-top:20px;">📞 0300-1234567 | ✉️ info@umarcomposing.com | 📍 Gujranwala, Pakistan</p>
+    <p><a href="https://wa.me/923001234567" target="_blank">WhatsApp Us</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Umar Composing and Translation Center. All rights reserved.</p>
+  </footer>
+</body>
+</html>
